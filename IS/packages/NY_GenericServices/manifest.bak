@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+  </record>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <value name="listACL">Default</value>
+  <value name="webappLoad">yes</value>
+  <value name="name">NY_GenericServices</value>
+  <null name="description"/>
+  <value name="time">2020-02-25 13:36:49 CET</value>
+  <value name="jvm_version">1.8.0_181</value>
+  <value name="publisher">VDCVN484.D60.intra</value>
+  <value name="patch_nums"></value>
+  <value name="version">1.0</value>
+  <value name="build">1.0.11</value>
+</Values>

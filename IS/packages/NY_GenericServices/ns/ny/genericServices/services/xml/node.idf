@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">IA0KCQ0KCQ0K</value>
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>com.sun.org.apache.xerces.internal.parsers.DOMParser</value>
+    <value>org.w3c.dom.*</value>
+    <value>org.xml.sax.InputSource</value>
+    <value>org.xml.sax.SAXException</value>
+    <value>javax.xml.parsers.*</value>
+    <value>java.io.*</value>
+  </array>
+</Values>

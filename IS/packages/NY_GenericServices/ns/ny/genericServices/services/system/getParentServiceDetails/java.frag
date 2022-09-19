@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getParentServiceDetails</value>
+  <array name="sig" type="value" depth="1">
+    <value>[o] field:0:required folderName</value>
+    <value>[o] field:0:required serviceName</value>
+    <value>[o] field:0:required fullName</value>
+    <value>[o] field:0:required successFlag</value>
+    <value>[o] field:0:required errorMessage</value>
+    <value>[o] field:0:required callStack</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">CQ0KLy8gSW5zdGFudGlhdGUgYSBjdXJzb3IgZm9yIGFjY2VzcyB0byB0aGUgcGlwZWxpbmUNCklE
+YXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQoNCi8vIFdv
+cmtpbmcgJiBPdXRwdXQgVmFyaWFibGVzIC0gQ3JlYXRlIGFsbCBvdXRwdXQgJiB3b3JraW5nIHZh
+cmlhYmxlcw0KTlNTZXJ2aWNlIGNhbGxpbmdTZXJ2aWNlID0gbnVsbDsNClN0cmluZ1Rva2VuaXpl
+ciBzdHJUb2sgPSBudWxsOw0KU3RyaW5nIGZvbGRlclBhdGggPSBuZXcgU3RyaW5nKCk7DQpTdHJp
+bmcgc2VydmljZU5hbWUgPSBuZXcgU3RyaW5nKCk7DQpTdHJpbmcgZnVsbE5hbWUgPSBuZXcgU3Ry
+aW5nKCk7DQpTdHJpbmcgc3VjY2Vzc0ZsYWcgPSAidHJ1ZSI7DQpTdHJpbmcgZXJyb3JNZXNzYWdl
+ID0gIk5vbmUiOw0KLy8gcGlwZWxpbmUuDQoNCg0KDQoNClN0YWNrIGNhbGxTdGFjayA9IEludm9r
+ZVN0YXRlLmdldEN1cnJlbnRTdGF0ZSgpLmdldENhbGxTdGFjaygpOyANCmludCBzaXplID0gY2Fs
+bFN0YWNrLnNpemUoKTsgDQoNCmlmIChzaXplID49IDIpIA0KeyANCgl0cnl7DQpOU1NlcnZpY2Ug
+bXlTZXJ2aWNlID0gKE5TU2VydmljZSkgY2FsbFN0YWNrLmVsZW1lbnRBdCAoc2l6ZSAtIDMpOyAN
+CnNlcnZpY2VOYW1lID0gbXlTZXJ2aWNlLmdldE5TTmFtZSgpLmdldEZ1bGxOYW1lKCk7IA0KCX1j
+YXRjaChFeGNlcHRpb24gZSkNCgl7DQoJCWUuZ2V0TWVzc2FnZSgpOw0KCX0NCn1lbHNlIHsNCgkN
+CglzZXJ2aWNlTmFtZSA9ICJVbmRlZmluZWQiOw0KfQ0KDQoNCgkNCg0KLy8gcGlwZWxpbmUNCklE
+YXRhQ3Vyc29yIG91dHB1dEN1cnNvciA9IHBpcGVsaW5lLmdldEN1cnNvcigpOw0KLy9JRGF0YVV0
+aWwucHV0KCBvdXRwdXRDdXJzb3IsICJmb2xkZXJOYW1lIiwgZm9sZGVyUGF0aCApOw0KLy9JRGF0
+YVV0aWwucHV0KCBvdXRwdXRDdXJzb3IsICJzZXJ2aWNlTmFtZSIsIHNlcnZpY2VOYW1lICk7DQpJ
+RGF0YVV0aWwucHV0KCBvdXRwdXRDdXJzb3IsICJmdWxsTmFtZSIsIHNlcnZpY2VOYW1lKTsNCklE
+YXRhVXRpbC5wdXQoIG91dHB1dEN1cnNvciwgImNhbGxTdGFjayIsIGNhbGxTdGFjayk7DQovL0lE
+YXRhVXRpbC5wdXQoIG91dHB1dEN1cnNvciwgImZ1bGxOYW1lIiwgcGFyZW50U2VydmljZSApOw0K
+Ly9JRGF0YVV0aWwucHV0KCBvdXRwdXRDdXJzb3IsICJzdWNjZXNzRmxhZyIsIHN1Y2Nlc3NGbGFn
+ICk7DQovL0lEYXRhVXRpbC5wdXQoIG91dHB1dEN1cnNvciwgImVycm9yTWVzc2FnZSIsIGVycm9y
+TWVzc2FnZSApOw0KDQoNCg0KCQ0K</value>
+</Values>

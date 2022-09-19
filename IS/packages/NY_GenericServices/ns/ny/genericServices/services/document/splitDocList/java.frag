@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">splitDocList</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] record:1:required list</value>
+    <value>[i] field:0:required size</value>
+    <value>[o] record:1:required splitList</value>
+    <value>[o] - record:1:required subList</value>
+    <value>[o] field:0:required splitListSize</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgY3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7ICANCklEYXRhW10gbGlz
+dCA9IElEYXRhVXRpbC5nZXRJRGF0YUFycmF5KGN1cnNvciwgImxpc3QiKTsgICAvLyBPcmlnaW5h
+bCBsaXN0ICANCmludCBzaXplID0gSURhdGFVdGlsLmdldEludChjdXJzb3IsICJzaXplIiwgbGlz
+dC5sZW5ndGgpOyAgIC8vIERlc2lyZWQgc2l6ZSBvZiBzdWItbGlzdHMgKGkuZS4gYmF0Y2ggc2l6
+ZSkgIA0KICANCmludCBpdGVyYXRpb25zID0gbGlzdC5sZW5ndGggLyBzaXplOyAgIC8vIE51bWJl
+ciBvZiB0aW1lcyB0byBsb29wIHRvIGNyZWF0ZSBzdWItbGlzdHMgIA0KaW50IHJlbWFpbmRlciA9
+IGxpc3QubGVuZ3RoICUgc2l6ZTsgICAvLyBJbiBjYXNlIHRoZSBvcmlnaW5hbCBsaXN0IHNpemUg
+aXMgbm90IGEgbXVsdGlwbGUgb2YgJ3NpemUnICANCklEYXRhW10gc3BsaXRMaXN0ID0gbmV3IElE
+YXRhW3JlbWFpbmRlciA9PSAwID8gaXRlcmF0aW9ucyA6IGl0ZXJhdGlvbnMgKyAxXTsgICAgLy8g
+T3V0cHV0IGxpc3QgIA0KICANCmludCBpOyAgDQpmb3IoaSA9IDA7IGkgPCBpdGVyYXRpb25zOyBp
+KyspIHsgIA0KICAgIElEYXRhIHN1Ykxpc3RbXSA9IG5ldyBJRGF0YVtzaXplXTsgIA0KICAgIFN5
+c3RlbS5hcnJheWNvcHkobGlzdCwgc2l6ZSAqIGksIHN1Ykxpc3QsIDAsIHNpemUpOyAgDQogICAg
+c3BsaXRMaXN0W2ldID0gSURhdGFGYWN0b3J5LmNyZWF0ZShuZXcgT2JqZWN0W11bXXt7InN1Ykxp
+c3QiLCBzdWJMaXN0fX0pOyAgDQp9ICANCmlmKHJlbWFpbmRlciAhPSAwKSB7ICANCiAgICBJRGF0
+YSBzdWJMaXN0W10gPSBuZXcgSURhdGFbcmVtYWluZGVyXTsgIA0KICAgIFN5c3RlbS5hcnJheWNv
+cHkobGlzdCwgc2l6ZSAqIGksIHN1Ykxpc3QsIDAsIHJlbWFpbmRlcik7ICANCiAgICBzcGxpdExp
+c3RbaV0gPSBJRGF0YUZhY3RvcnkuY3JlYXRlKG5ldyBPYmplY3RbXVtde3sic3ViTGlzdCIsIHN1
+Ykxpc3R9fSk7ICANCn0gIA0KICANClN0cmluZyBzcGxpdExpc3RTaXplID0gSW50ZWdlci50b1N0
+cmluZyhzcGxpdExpc3QubGVuZ3RoKTsNCklEYXRhVXRpbC5wdXQoY3Vyc29yLCAic3BsaXRMaXN0
+Iiwgc3BsaXRMaXN0KTsgIA0KSURhdGFVdGlsLnB1dChjdXJzb3IsICJzcGxpdExpc3RTaXplIiwg
+c3BsaXRMaXN0U2l6ZSk7IA0KY3Vyc29yLmRlc3Ryb3koKTsNCg0KCQ0K</value>
+</Values>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.util.Base64</value>
+    <value>com.wm.util.JournalLogger</value>
+    <value>java.math.BigInteger</value>
+    <value>java.nio.charset.StandardCharsets</value>
+    <value>java.nio.file.Files</value>
+    <value>java.security.MessageDigest</value>
+    <value>java.security.NoSuchAlgorithmException</value>
+    <value>javax.crypto.Mac</value>
+    <value>javax.crypto.spec.SecretKeySpec</value>
+    <value>java.io.File</value>
+    <value>java.io.FileInputStream</value>
+    <value>java.io.ObjectInputStream</value>
+    <value>java.io.UnsupportedEncodingException</value>
+    <value>java.security.InvalidKeyException</value>
+    <value>java.security.KeyFactory</value>
+    <value>java.security.PublicKey</value>
+    <value>java.security.Signature</value>
+    <value>java.security.spec.X509EncodedKeySpec</value>
+    <value>java.util.List</value>
+  </array>
+</Values>

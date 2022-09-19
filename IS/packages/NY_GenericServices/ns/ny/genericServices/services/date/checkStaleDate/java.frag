@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">checkStaleDate</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] field:0:required dateToCheck</value>
+    <value>[o] field:0:required staleStatus</value>
+    <value>[o] field:0:required valueOut</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoNCglTdHJpbmcJZGF0ZVRvQ2hlY2sgPSBJRGF0YVV0aWwuZ2V0U3RyaW5nKCBwaXBl
+bGluZUN1cnNvciwgImRhdGVUb0NoZWNrIiApOw0KCVN0cmluZyBzdGFsZVN0YXR1cz0iIjsNCglT
+aW1wbGVEYXRlRm9ybWF0IHNkZiA9IG5ldyBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5TU1kZCIpOw0K
+CUNhbGVuZGFyIGNhbCAgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpOw0KCWNhbC5hZGQoQ2FsZW5k
+YXIuWUVBUiwgLTEpOw0KCVN0cmluZyBjdXJyZW50RGF0ZSA9IHNkZi5mb3JtYXQoY2FsLmdldFRp
+bWUoKSk7DQoJaW50IGRpZmYgPSAwOw0KCQlkaWZmID0gZGF0ZVRvQ2hlY2suY29tcGFyZVRvKGN1
+cnJlbnREYXRlKTsNCgkNCglpZihkaWZmPjApew0KCQkvL1N5c3RlbS5vdXQucHJpbnRsbigiRGF0
+ZTEgaXMgYWZ0ZXIgRGF0ZTIiKTsNCgkJc3RhbGVTdGF0dXM9SW50ZWdlci50b1N0cmluZyhkaWZm
+KTsNCgl9ZWxzZSBpZihkaWZmPDApew0KCQkvL1N5c3RlbS5vdXQucHJpbnRsbigiRGF0ZTEgaXMg
+YmVmb3JlIERhdGUyIik7DQoJCXN0YWxlU3RhdHVzPUludGVnZXIudG9TdHJpbmcoZGlmZik7DQoJ
+fWVsc2UgaWYoZGlmZj09MCl7DQoJCS8vU3lzdGVtLm91dC5wcmludGxuKCJEYXRlMSBpcyBlcXVh
+bCB0byBEYXRlMiIpOw0KCQlzdGFsZVN0YXR1cz1JbnRlZ2VyLnRvU3RyaW5nKGRpZmYpOw0KCX1l
+bHNlew0KCQkvL1N5c3RlbS5vdXQucHJpbnRsbigiSG93IHRvIGdldCBoZXJlPyIpOw0KCX0NCnBp
+cGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsNCg0KLy8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVs
+aW5lQ3Vyc29yXzEgPSBwaXBlbGluZS5nZXRDdXJzb3IoKTsNCklEYXRhVXRpbC5wdXQoIHBpcGVs
+aW5lQ3Vyc29yXzEsICJzdGFsZVN0YXR1cyIsIDEgKTsNCnBpcGVsaW5lQ3Vyc29yXzEuZGVzdHJv
+eSgpOw0KDQoJDQoJDQoJDQo=</value>
+</Values>

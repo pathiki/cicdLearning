@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE TIMEOUT="" SERVICE="an.sqldb.adapter:selectSREGDetails" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+</MAP>
+
+<MAP MODE="OUTPUT">
+</MAP>
+</INVOKE>
+
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT>check if there was value in sreg table</COMMENT>
+
+  <!-- nodes -->
+
+<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE NAME="%selectSREGDetailsOutput/selectRowCount%=0" TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<EXIT FROM="$flow" SIGNAL="FAILURE" FAILURE-MESSAGE="NO SREG found FROMSYSTEM=%selectSREGDetailsInput/FROMSYSTEM%, FROMSYSTEMCODE=%selectSREGDetailsInput/FROMSYSTEMCODE%, TOSYSTEM=%selectSREGDetailsInput/TOSYSTEM%, TOSYSTEMCODE=%selectSREGDetailsInput/TOSYSTEMCODE%, INTERFACENAME=%selectSREGDetailsInput/INTERFACENAME% !">
+  <COMMENT></COMMENT>
+</EXIT>
+</SEQUENCE>
+
+<MAP NAME="$default" TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>continue</COMMENT>
+</MAP>
+</BRANCH>
+</SEQUENCE>
+</FLOW>

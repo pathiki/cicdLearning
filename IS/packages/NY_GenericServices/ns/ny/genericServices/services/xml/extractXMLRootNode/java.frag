@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">extractXMLRootNode</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] field:0:required xmldata</value>
+    <value>[o] field:0:required root</value>
+    <value>[o] field:0:required idocContent</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">SURhdGFDdXJzb3IgcGlwZWxpbmVDdXJzb3I9cGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpTdHJpbmcg
+cm9vdD1udWxsOw0KU3RyaW5nIGlkb2NDb250ZW50ID1JRGF0YVV0aWwuZ2V0U3RyaW5nKHBpcGVs
+aW5lQ3Vyc29yLCAieG1sZGF0YSIpOw0KLy9pZG9jQ29udGVudD1pZG9jQ29udGVudC5yZXBsYWNl
+QWxsKCJcXDxcXD94bWwoLis/KVxcP1xcPiIsICIiKS50cmltKCk7DQoJCQ0KdHJ5ewkgRG9jdW1l
+bnRCdWlsZGVyRmFjdG9yeSBmYWN0ID0gRG9jdW1lbnRCdWlsZGVyRmFjdG9yeS5uZXdJbnN0YW5j
+ZSgpOw0KCQkgIERvY3VtZW50QnVpbGRlciBidWlsZGVyID0gZmFjdC5uZXdEb2N1bWVudEJ1aWxk
+ZXIoKTsNCgkJIC8vIERvY3VtZW50IGRvYyA9IGJ1aWxkZXIucGFyc2UoaWRvY0NvbnRlbnQpOw0K
+CQkgIA0KCQkgIERvY3VtZW50IGRvYyA9IGJ1aWxkZXIucGFyc2UobmV3IElucHV0U291cmNlKG5l
+dyBTdHJpbmdSZWFkZXIoDQoJCQkJICBpZG9jQ29udGVudCkpKTsNCgkJICBOb2RlIG5vZGUgPSBk
+b2MuZ2V0RG9jdW1lbnRFbGVtZW50KCk7DQoJCSAgZG9jLmdldERvY3VtZW50RWxlbWVudCgpLm5v
+cm1hbGl6ZSgpOw0KCQkgIHJvb3Q9ZG9jLmdldERvY3VtZW50RWxlbWVudCgpLmdldE5vZGVOYW1l
+KCk7DQoJCSAgLy8gcm9vdCA9IG5vZGUuZ2V0Tm9kZU5hbWUoKTsNCgkJICANCn1jYXRjaChFeGNl
+cHRpb24gZSl7DQoJDQp9DQoJCSAgIElEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yXzEgPSBwaXBl
+bGluZS5nZXRDdXJzb3IoKTsNCgkJCUlEYXRhVXRpbC5wdXQocGlwZWxpbmVDdXJzb3JfMSwicm9v
+dCIsU3RyaW5nLnZhbHVlT2Yocm9vdCkpOw0KCQkJLy9JRGF0YVV0aWwucHV0KHBpcGVsaW5lQ3Vy
+c29yXzEsImlkb2NDb250ZW50IixTdHJpbmcudmFsdWVPZihpZG9jQ29udGVudCkpOw0KCQ0KCQ0K
+CQ0K</value>
+</Values>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">cHJvdGVjdGVkIHN0YXRpYyBWYWx1ZXMgTWVtb3J5ID0gbmV3IFZhbHVlcygpOw0KCQ0KCQ0KCQ0K
+</value>
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.Calendar</value>
+    <value>java.util.Date</value>
+    <value>java.util.GregorianCalendar</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataUtil</value>
+  </array>
+</Values>

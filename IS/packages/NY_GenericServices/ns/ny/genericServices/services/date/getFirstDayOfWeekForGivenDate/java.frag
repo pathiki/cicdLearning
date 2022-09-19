@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getFirstDayOfWeekForGivenDate</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] field:0:required inDate</value>
+    <value>[i] field:0:required inputFormat</value>
+    <value>[i] field:0:required outputFormat</value>
+    <value>[o] field:0:required outDate</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQpTdHJpbmcJaW5EYXRlID0gSURhdGFVdGlsLmdldFN0cmluZyggcGlwZWxpbmVDdXJz
+b3IsICJpbkRhdGUiICk7DQpTdHJpbmcJaW5wdXRGb3JtYXQgPSBJRGF0YVV0aWwuZ2V0U3RyaW5n
+KCBwaXBlbGluZUN1cnNvciwgImlucHV0Rm9ybWF0IiApOw0KU3RyaW5nCW91dHB1dEZvcm1hdCA9
+IElEYXRhVXRpbC5nZXRTdHJpbmcoIHBpcGVsaW5lQ3Vyc29yLCAib3V0cHV0Rm9ybWF0IiApOw0K
+cGlwZWxpbmVDdXJzb3IuZGVzdHJveSgpOw0KDQpTdHJpbmcgb3V0cHV0ID0gIiI7DQoNCnRyeQ0K
+ew0KCWlmKGluRGF0ZSE9bnVsbCAmJiBpbkRhdGUhPSIiKQ0KCXsNCgkJU2ltcGxlRGF0ZUZvcm1h
+dCBkYXRlRm9ybWF0ID0gbmV3IFNpbXBsZURhdGVGb3JtYXQoaW5wdXRGb3JtYXQpOw0KCQlEYXRl
+IGNvbnZlcnRlZERhdGUgPSBkYXRlRm9ybWF0LnBhcnNlKGluRGF0ZSk7DQoJCQ0KCQlDYWxlbmRh
+ciBjID0gQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKTsNCgkJYy5zZXRUaW1lKGNvbnZlcnRlZERhdGUp
+Ow0KCQkNCgkJaW50IHdlZWtPZlllYXIgPSBJbnRlZ2VyLnBhcnNlSW50KGluRGF0ZS5zdWJzdHJp
+bmcoaW5EYXRlLmxlbmd0aCgpLTIsIGluRGF0ZS5sZW5ndGgoKSkpOw0KCQljLnNldChDYWxlbmRh
+ci5XRUVLX09GX1lFQVIsIHdlZWtPZlllYXIpOw0KCQljLnNldChDYWxlbmRhci5ZRUFSLCBJbnRl
+Z2VyLnBhcnNlSW50KGluRGF0ZS5zdWJzdHJpbmcoMCwgMikpKTsNCgkJYy5zZXQoQ2FsZW5kYXIu
+REFZX09GX1dFRUssIENhbGVuZGFyLk1PTkRBWSk7DQoJCQ0KCQkNCgkJRGF0ZSBkYXRlSW5UaW1l
+ID0gYy5nZXRUaW1lKCk7DQoJCVNpbXBsZURhdGVGb3JtYXQgc2RmID0gbmV3IFNpbXBsZURhdGVG
+b3JtYXQob3V0cHV0Rm9ybWF0KTsgDQoJCW91dHB1dCA9IHNkZi5mb3JtYXQoZGF0ZUluVGltZSk7
+DQoJCQ0KCQ0KCQkvLyBwaXBlbGluZQ0KCQlJRGF0YUN1cnNvciBwaXBlbGluZUN1cnNvcl8xID0g
+cGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQoJCUlEYXRhVXRpbC5wdXQoIHBpcGVsaW5lQ3Vyc29yXzEs
+ICJvdXREYXRlIiwgb3V0cHV0KTsNCgkJcGlwZWxpbmVDdXJzb3JfMS5kZXN0cm95KCk7DQoJfQ0K
+CWVsc2UNCgl7DQoJCXRocm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKCJJbnB1dCBkYXRlIGlzIGVp
+dGhlciBlbXB0eSBvciBudWxsIik7DQoJfQ0KfQ0KY2F0Y2goRXhjZXB0aW9uIGUpDQp7DQoJdGhy
+b3cgbmV3IFNlcnZpY2VFeGNlcHRpb24oZS5nZXRNZXNzYWdlKCkpOw0KfQ0KCQ0K</value>
+</Values>
