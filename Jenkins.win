@@ -12,6 +12,7 @@ pipeline {
             steps {
 		bat "%WM_DEPLOYER_DIR%/bin/projectautomator %WORKSPACE%/deployerFiles/Deployment_ProjectAutomator.xml"
             }
+	  }
         stage('Deploy') {
             steps {
 		bat "%WM_DEPLOYER_DIR%/bin/Deployer.bat --deploy -dc Deployment_Candidate -project Deployment_Project -host %IS_HOST% -port %IS_PORT% -user %IS_USER_NAME% -pwd %IS_USER_PWD%"
