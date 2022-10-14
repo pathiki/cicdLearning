@@ -5,6 +5,7 @@ pipeline {
         stage('Build'){
             steps {
                 bat "%SAG_INSTALL_DIR%/common/AssetBuildEnvironment/bin/build.bat -Dbuild.output.dir=%WORKSPACE%/buildOutputs -Dbuild.source.dir=%WORKSPACE%/IS/Packages -Denable.build.IS=true"
+                bat "%SAG_INSTALL_DIR%/common/lib/ant/bin/ant.bat -f %WORKSPACE%/deployerFiles/updateAutomator.xml -Dbuild.output.dir=%WORKSPACE%/buildOutputs"
             }
         }
         
