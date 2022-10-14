@@ -1,0 +1,16 @@
+pipeline {
+    agent any 
+
+    stages {
+        stage('Build'){
+            steps {
+                bat "%SAG_INSTALL_DIR%/common/AssetBuildEnvironment/bin/build -Dbuild.output.dir=%WORKSPACE%/buildOutputs -Dbuild.source.dir=%WORKSPACE%/IS/Packages -Denable.build.IS=true %SAG_INSTALL_DIR%/common/lib/ant/bin/ant -f %WORKSPACE%/deployerFiles/updateAutomator.xml -Dbuild.output.dir=%WORKSPACE%/buildOutputs"
+            }
+        }
+        stage('Deploy') {
+            steps {
+		bat "%WM_DEPLOYER_DIR%/bin/projectautomator %WORKSPACE%/deployerFiles/Deployment_ProjectAutomator.xml %WM_DEPLOYER_DIR%/bin/Deployer --deploy -dc Deployment_Candidate -project Deployment_Project -host %IS_HOST% -port %IS_PORT% -user %IS_USER_NAME% -pwd %IS_USER_PWD%"
+            }
+        }
+    }
+}
